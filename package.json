@@ -19,7 +19,7 @@
     "url": "https://github.com/webrtc/samples.git"
   },
   "scripts": {
-    "start": "http-server . -c-1",
+    "start": "http-server . -S-c-1",
     "test": "npm run eslint && npm run stylelint",
     "eslint": "eslint 'src/content/**/*.js'",
     "mocha": "mocha --timeout 5000 'src/content/**/test.js'",
