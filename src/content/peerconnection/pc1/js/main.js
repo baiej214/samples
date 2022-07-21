@@ -11,6 +11,7 @@
 const startButton = document.getElementById('startButton');
 const callButton = document.getElementById('callButton');
 const hangupButton = document.getElementById('hangupButton');
+const logOut = document.getElementById('logOut');
 callButton.disabled = true;
 hangupButton.disabled = true;
 startButton.addEventListener('click', start);
@@ -39,6 +40,8 @@ remoteVideo.addEventListener('resize', () => {
     startTime = null;
   }
 });
+
+alert('asdfasdfas')
 
 let localStream;
 let pc1;
