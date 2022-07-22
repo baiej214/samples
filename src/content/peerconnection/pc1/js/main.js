@@ -59,6 +59,7 @@ function getOtherPc(pc) {
 
 async function start() {
     log('Requesting local stream');
+    log(navigator.userAgent);
     startButton.disabled = true;
     try {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: true });
